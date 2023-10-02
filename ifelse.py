@@ -53,3 +53,11 @@ print(music == "classical")
 # #     print("It's the weekend")
 # else:
 #     print("Off to work I go")
+
+password = input("What is your password")
+
+if len(password) <8:
+    print("password too short")
+else:
+    print(password)
+
