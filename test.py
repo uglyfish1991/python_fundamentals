@@ -6,5 +6,3 @@ print("here is another line")
 
 print("hello")
 
-
-
