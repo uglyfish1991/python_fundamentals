@@ -1,46 +1,98 @@
-# print("hello world")
+# print("This allows us to see outputs")
 
-# #this will not execute, but we can see it
+# print("1234")
 
-# print("what data type is this")
-# print("12345")
+# print(1234)
 
-# print(12345)
+# print(12.34)
 
-# print(123.45)
-
-# print(None)
+# print(5.0)
 
 # print(True)
 # print(False)
 
-# # object.method()
+# print(None)
 
 # print("hello".upper())
 
-# print("HELLO")
+# my_name = "Katy"
 
-# print(len("Hello"))
+# print(my_name)
 
-# print("123456".isnumeric())
+# print(f"Welcome to your account, {my_name}")
 
-# print("how do I capitAlise every starting letter".title())
+# print("Welcome to your account, " + my_name)
 
-# print("I am going to use .split()".split())
+# print("Welcome to your account,", my_name)
 
-# print("This is another interesting split".split("i"))
+# print("Welcome to your account, {}".format(my_name))
 
-# print("All aro"+ "All around the world".upper()[7]+ "nd the world")
+# print(5+9)
 
-print("All around the world".upper()[7])
+# print(9-5)
 
-print("All around the world"[7].upper())
+# print(3*2)
+
+# print(3**3)
+
+# print(15/3)
+
+# print(15%3)
+
+# user_name = input("What is your name?")
+
+# print(f"Hello {user_name}")
+
+balance = 100
+
+amount_to_withdraw = int(input(" How much to do you want to withdraw  >   "))
+
+# # balance = balance - amount_to_withdraw
+
+# # print(f"your new balance is {balance}")
+
+while amount_to_withdraw > balance:
+    print("insufficient funds")
+    amount_to_withdraw = int(input(" How much to do you want to withdraw  >   "))
+else:
+    balance = balance - amount_to_withdraw
+    print(f"your new balance is {balance}")
 
 
-# this is a variable - we will cover these shortly!
-example = "testingstring is here"
+# if amount_to_withdraw < balance:
+#     balance = balance - amount_to_withdraw
+#     print(f"your new balance is {balance}")
+# else:
+#     print("Insufficient funds")
 
-#take the string and show us the starting character to one before the 7th
-# then add the 7th
-# then get the 8th and continue to the end
-print(example[0:7] + example[7].upper() + example[8:])
+
+# == 
+# != 
+# <= 
+# >=
+# >
+# <
+
+# and 
+
+# or 
+
+# day = "Saturday"
+# bank_holiday = False
+
+# if day == "Saturday" or day == "Sunday" or bank_holiday==True:
+#     print("A day off!")
+# else:
+#     print("Off to work we go")
+
+# and 
+
+# True + True = True
+# False + True = False 
+# False + False = False
+
+# or 
+
+# True + True = True
+# False + True = True
+# False + False = False

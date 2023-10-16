@@ -1,6 +1,7 @@
 music = "classical"
 
 print(music == "classical")
+
 # if music == "classical":
 #     print("Oh no, not classical music")
 # elif music == "no music":
